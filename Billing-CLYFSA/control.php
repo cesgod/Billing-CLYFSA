@@ -159,7 +159,7 @@
                       </thead>
                       <tbody>
                         <?php
-                          $json=file_get_contents("../../virtualenvs/Cl/billingservice/billing/billing.json");
+                          $json=file_get_contents("../virtualenvs/Cl/billingservice/billing/billing.json");
                           $data["stand"] =  json_decode($json);
                           $data = (object) $data;
                           #echo "<pre>";print_r($data);echo "</pre>";
